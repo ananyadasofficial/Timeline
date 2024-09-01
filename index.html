@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timeline</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <header class="header" data-aos="fade-down">
+    <h2>WHAT I HAVE LEARNT SO FAR</h2>
+    <h1>Frontend <span class="gradient-text">Skills</span></h1>
+  </header>
+  <div class="timeline">
+    <!-- Left container for HTML -->
+    <div class="container left-container" onclick="showDetail('html-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+          alt="html-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="html-details" class="text-box" data-aos="fade-right" data-tilt data-tilt-glare>
+        <h2>HTML</h2>
+        <ul>
+          <li>
+            Hypertext Markup Language (HTML) is the standard markup language
+            for documents designed to be displayed in a web browser.
+          </li>
+          <li>It defines the content and structure of web content.</li>
+        </ul>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- Right container for CSS -->
+    <div class="container right-container" onclick="showDetail('css-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+          alt="css-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="css-details" class="text-box" data-aos="fade-left" data-tilt data-tilt-glare>
+        <h2>CSS</h2>
+        <ul>
+          <li>
+            Cascading Style Sheets (CSS) is a style sheet language used for
+            describing the presentation of a document written in HTML or XML.
+          </li>
+          <li>
+            It allows you to apply styles to HTML documents, describing how a
+            webpage should look by prescribing colors, fonts, spacing, and
+            positioning.
+          </li>
+        </ul>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- Left container for JavaScript -->
+    <div class="container left-container" onclick="showDetail('js-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+          alt="javascript-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="js-details" class="text-box" data-aos="fade-right" data-tilt data-tilt-glare>
+        <h2>JavaScript</h2>
+        <ul>
+          <li>
+            JavaScript is a lightweight, cross-platform, single-threaded, and
+            interpreted compiled programming language and is also known as the
+            scripting language for webpages.
+          </li>
+          <li>
+            JavaScript is a versatile programming language that powers dynamic
+            behavior on most websites, including games, interactive elements,
+            and web applications.
+          </li>
+        </ul>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- Right container for Bootstrap -->
+    <div class="container right-container" onclick="showDetail('bootstrap-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
+          alt="bootstrap-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="bootstrap-details" class="text-box" data-aos="fade-left" data-tilt data-tilt-glare>
+        <h2>Bootstrap</h2>
+        <ul>
+          <li>
+            Bootstrap is a free and open-source CSS framework directed at
+            responsive, mobile-first front-end web development.
+          </li>
+          <li>
+            It contains HTML, CSS and JavaScript-based design templates for
+            typography, forms, buttons, navigation, and other interface
+            components.
+          </li>
+        </ul>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- Left container for React -->
+    <div class="container left-container" onclick="showDetail('react-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=58811&format=png&color=000000"
+          alt="react-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="react-details" class="text-box" data-aos="fade-right" data-tilt data-tilt-glare>
+        <h2>React</h2>
+        <ul>
+          <li>
+            React is a powerful JavaScript library used for building user
+            interfaces, particularly for single-page applications.
+          </li>
+          <li>
+            It allows developers to create large web applications that can
+            change data, without reloading the page.
+          </li>
+        </ul>
+        <span class="left-container-arrow"></span>
+      </div>
+    </div>
+
+    <!-- Right container for React Native -->
+    <div class="container right-container" onclick="showDetail('react-native-details')">
+      <div class="circle">
+        <img
+          src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+          alt="reactnative-logo"
+          style="width: 70%; height: 70%"
+        />
+      </div>
+      <div id="react-native-details" class="text-box" data-aos="fade-left" data-tilt data-tilt-glare>
+        <h2>React Native</h2>
+        <ul>
+          <li>
+            React Native (also known as RN) is a popular JavaScript-based
+            mobile app framework that allows you to build natively-rendered
+            mobile apps for iOS and Android.
+          </li>
+          <li>
+            It is an open-source UI software framework created by Meta
+            Platforms, Inc.
+          </li>
+        </ul>
+        <span class="right-container-arrow"></span>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="vanilla-tilt.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
