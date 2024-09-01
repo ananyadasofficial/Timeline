@@ -23,5 +23,5 @@ function showDetail(id) {
 
 // Show default detail
 document.addEventListener('DOMContentLoaded', function() {
-    showDetail('html-details'); // Default to HTML details
+    showDetail('html-details'); 
 });
